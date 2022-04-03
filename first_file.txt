@@ -1,0 +1,4 @@
+1、这是用终端创建的第一个文件（vim first_file.txt)
+2、本地目录关联远程仓库
+一、git init
+二、git remote add origin <url>

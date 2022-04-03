@@ -1,0 +1,12 @@
+// 删除本地分支
+git branch -d localBranchName
+当一个分支被推送并合并到远程分支后，-d 才会本地删除该分支。如果一个分支还没有被推送或者合并，那么可以使用-D强制删除它
+
+// 删除远程分支
+git push origin --delete remoteBranchName 
+简写
+git push origin :remoteBranchName
+
+//同步分支列表：
+git fetch -p
+-p 的意思是“精简”。这样，你的分支列表里就不会显示已远程被删除的分支了

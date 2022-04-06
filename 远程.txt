@@ -1,5 +1,7 @@
 git init
+git branch -M "branch_name"(修改本地分支名字和仓库默认分支相同)
 git remote add orgin <git_url>
+git pull origin <branch_name> (本地有内容先同步远程内容到本地)
 git fetch -p
 git add *
 git commit -m "message"

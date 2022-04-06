@@ -1,7 +1,15 @@
 git init
-git remote add origin "git_url"
-git branch -M main
-git pull origin main
 git add *
 git commit -m "message"
+git branch -M main
+git remote add origin "git_url"
+git pull origin main
 git push -u origin main
+
+
+查看 remote
+git remote -v
+删除关联
+git remote rm origin
+删除git文件
+rm -rf .git
